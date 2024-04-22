@@ -2,7 +2,7 @@ import User from "./models/user.models.js"
 
 
 
-export const getusersforsidebar = async(req,res){
+export const getusersforsidebar = async(req,res) =>{
     try {
 
         const loggedinuserid = req.user._id;
